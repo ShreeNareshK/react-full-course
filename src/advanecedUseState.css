@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set body height to 100% of the viewport height */
+}
+  
+.emp-card {
+    height: 130px;
+    width: 250px;
+    background-color: #eaece5;
+    border: 1px solid darkred;
+    border-radius: 10px;
+    padding: 5px
+}
+.firstName{
+  margin-top: 6px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.lastName{
+      font-size: 18px;
+      font-weight: 500;
+}
+.contact{
+        font-size: 16px;
+        font-weight: 400;
+}
+.designation{
+        font-size: 15px;
+        font-weight: 300;
+}
+.next, .clear{
+    height: auto;
+    width: auto;
+    border: 1px solid firebrick;
+    border-radius: 5px;
+    margin: 5px;
+}
+.next:hover,
+.clear:hover {
+    /* Add your hover effect styles here */
+    background-color: #0056b3; /* Darker background color on hover */
+    color: #eaeaea; /* Lighter text color on hover */
+    border: 1px solid #0056b3; /* Add a border on hover */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow on hover */
+    /* Add any other styles you want for the hover effect */
+}
