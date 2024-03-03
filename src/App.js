@@ -3,6 +3,7 @@ import Usestate from "./Usestate";
 import Advanceusestate from "./Advancedusestate";
 import Signinform from "./Signinform";
 import Todolist from "./Todolist";
+import Usestateeffect from "./Usestateuseeffect";
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,8 @@ function App() {
        */}
       {/*             <Signinform />
        */}
-      <Todolist />
+      {/* <Todolist /> */}
+      <Usestateeffect />
     </div>
   );
 }
