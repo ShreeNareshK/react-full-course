@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-
-const usersAPIURL = "https://jsonplaceholder.typicode.com/user";
+import "./usestateuseeffect.css";
+const usersAPIURL = "https://jsonplaceholder.typicode.com/users";
 
 function Usestateeffect() {
   const [users, setUsers] = useState([]);
@@ -32,15 +32,15 @@ function Usestateeffect() {
   }, []);
   if (loading) {
     return (
-      <div>
-        <h1>Loading...</h1>
+      <div className="loading-container">
+        <h1 className="loading-message">Loading...</h1>
       </div>
     );
   }
   if (isError?.status) {
     return (
-      <div>
-        <h1>{isError.msg}</h1>
+      <div className="error-container">
+        <h1 className="error-msg">{isError.msg}</h1>
       </div>
     );
   }
