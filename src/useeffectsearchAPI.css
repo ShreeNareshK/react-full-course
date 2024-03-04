@@ -1,0 +1,56 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+}
+.search input {
+  height: 70px;
+  width: 600px;
+  border-radius: 25px;
+  margin-bottom: 200px;
+  font-size: 40px;
+  padding: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.drinks-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly !important;
+  align-items: center;
+  gap: 50px;
+  margin: auto;
+}
+/* .each-drink {
+  height: auto;
+  width: auto;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+} */
+.each-drink img {
+  width: 400px;
+  height: 400px;
+  border: 2px soloid black;
+  border-radius: 50%;
+}
+.each-drink .name {
+  font-size: 40px;
+  font-family: Georgia, serif;
+}
+.each-drink .category {
+  font-size: 30px;
+  font-family: initial;
+}
+.each-drink .type {
+  font-size: 20px;
+  font-family: initial;
+}

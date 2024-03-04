@@ -4,6 +4,7 @@ import Advanceusestate from "./Advancedusestate";
 import Signinform from "./Signinform";
 import Todolist from "./Todolist";
 import Usestateeffect from "./Usestateuseeffect";
+import UseeffectsearchAPI from "./UseeffectsearchAPI";
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,8 @@ function App() {
       {/*             <Signinform />
        */}
       {/* <Todolist /> */}
-      <Usestateeffect />
+      {/* <Usestateeffect /> */}
+      <UseeffectsearchAPI />
     </div>
   );
 }
