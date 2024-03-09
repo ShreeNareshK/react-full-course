@@ -5,6 +5,9 @@ import Signinform from "./Signinform";
 import Todolist from "./Todolist";
 import Usestateeffect from "./Usestateuseeffect";
 import UseeffectsearchAPI from "./UseeffectsearchAPI";
+import { UserContext } from "./Usecontext/Usecontexts";
+//import Subchild from "./Usecontext/subChild";
+import Usereducer from "./Usereducer/Usereducer";
 function App() {
   return (
     <div className="App">
@@ -16,7 +19,9 @@ function App() {
        */}
       {/* <Todolist /> */}
       {/* <Usestateeffect /> */}
-      <UseeffectsearchAPI />
+      {/* <UseeffectsearchAPI /> */}
+      {/* <Subchild /> */}
+      <Usereducer />
     </div>
   );
 }
